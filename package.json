@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --dist-dir build",
     "server": "node server/server.js",
-    "start": "npm run build && npm run server"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "react": "^18.2.0",
