@@ -1,0 +1,29 @@
+{
+  "name": "file-share",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "server": "node server/server.js",
+    "start": "npm run build && npm run server"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "nanoid": "^4.0.2",
+    "lucide-react": "^0.263.1",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "parcel": "^2.9.3",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "process": "^0.11.10"
+  }
+}
