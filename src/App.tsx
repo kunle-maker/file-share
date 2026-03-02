@@ -14,9 +14,6 @@ import {
   Sparkles
 } from 'lucide-react'
 
-import process from 'process';
-window.process = process;
-
 const API_URL = ' ';
 
 interface UploadResponse {
